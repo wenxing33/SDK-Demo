@@ -117,11 +117,11 @@ function printNetworkDetails() {
     console.log("\n------------- ca-server, peers and event URL:PORT information: -------------");
     console.log("\nCA server Url : %s\n", caUrl);
     for (var i = 0; i < peerUrls.length; i++) {
-        console.log("Validating Peer%d : %s", i, peerUrls[i]);
+        console.log("WWW - Validating Peer%d : %s", i, peerUrls[i]);
     }
     console.log("");
     for (var i = 0; i < eventUrls.length; i++) {
-        console.log("Event Url on Peer%d : %s", i, eventUrls[i]);
+        console.log("WWW - Event Url on Peer%d : %s", i, eventUrls[i]);
     }
     console.log("");
     console.log('-----------------------------------------------------------\n');

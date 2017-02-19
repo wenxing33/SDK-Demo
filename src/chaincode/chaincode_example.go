@@ -48,7 +48,7 @@ func (t *SimpleChaincode) Init(stub shim.ChaincodeStubInterface, function string
 	if err != nil {
 		return nil, errors.New("Expecting integer value for asset holding")
 	}
-	fmt.Printf("Aval = %d, Bval = %d\n", Aval, Bval)
+	fmt.Printf("WWW - Aval = %d, WWW - Bval = %d\n", Aval, Bval)
 
 	// Write the state to the ledger
 	err = stub.PutState(A, []byte(strconv.Itoa(Aval)))
